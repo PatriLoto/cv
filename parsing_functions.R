@@ -1,3 +1,26 @@
+#install.packages("pagedown")
+#install.packages("regex")
+#library(pagedown)
+#library(reprex)
+#library(regex)
+#library(extrafont)
+#library(tidyverse)
+
+#fuentes_Importadas <- fonts() 
+
+#fuentes <- append(fuentes_Importadas, fuentes_Sys) %>% 
+  #unique() %>% 
+  #sort()
+#fuentes <- fuentes[-1]
+
+#library(extrafont)
+#font_import(paths = 'C:/Windows/fonts')
+
+#loadfonts()       #Register fonts for Windows bitmap output
+#fonts()        
+#p <-windowsFonts(A = windowsFont("Montserrat"))
+#p
+
 # Regex to locate links in text
 find_link <- regex("
   \\[   # Grab opening square bracket
