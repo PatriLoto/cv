@@ -1,6 +1,6 @@
 ---
 title: Nick Strayer's Resume"
-author: Nick Strayer
+author: Patricia A. Loto
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
