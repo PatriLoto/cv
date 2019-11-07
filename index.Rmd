@@ -102,7 +102,7 @@ La última actualización fue hecha el `r Sys.Date()`.
 
 
 
-Main
+Principal
 ================================================================================
 
 Patricia Loto {#title}
@@ -126,16 +126,6 @@ Educacion {data-icon=graduation-cap data-concise=true}
 ```{r}
 print_section(position_data, 'education')
 ```
-
-
-Experience Académica {data-icon=laptop}
---------------------------------------------------------------------------------
-
-```{r}
-print_section(position_data, 'research_positions')
-```
-
-
 
 Experiencia en la Industria {data-icon=suitcase}
 --------------------------------------------------------------------------------
@@ -196,7 +186,7 @@ print_section(position_data, 'by_me_press')
 
 
 
-Publicaciones seleccionadas , Pósters, y Charlas {data-icon=book}
+Publicaciones seleccionadas, Pósters, y Charlas {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
