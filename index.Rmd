@@ -59,7 +59,7 @@ if(PDF_EXPORT){
 }
 ```
 
-Contact {#contact}
+Contacto {#contacto}
 --------------------------------------------------------------------------------
 
 
@@ -71,7 +71,7 @@ Contact {#contact}
 
 
 
-Language Skills {#skills}
+Skills {#skills}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -79,11 +79,8 @@ skills <- tribble(
   ~skill,               ~level,
   "R",                  5,
   "Javascript (d3.js)", 4.5,
-  "Python",             4,
-  "Bash",               3.5,
   "SQL",                3,
-  "C++",                3,
-  "AWK",                3
+  "C#",                 3
 )
 
 build_skill_bars(skills)
@@ -96,9 +93,9 @@ build_skill_bars(skills)
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
+Hecho con  el R paquete [**pagedown**](https://github.com/rstudio/pagedown). 
 
-The source code is available at [github.com/nstrayer/cv](https://github.com/nstrayer/cv).
+El código fuente source está disponible aquí [github.com/nstrayer/cv](https://github.com/nstrayer/cv).
 
 Last updated on `r Sys.Date()`.
 
@@ -123,7 +120,7 @@ cat(sanitize_links(intro_text))
 
 
 
-Education {data-icon=graduation-cap data-concise=true}
+Educacion {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
