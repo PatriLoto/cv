@@ -95,9 +95,9 @@ Disclaimer {#disclaimer}
 
 Hecho con  el R paquete [**pagedown**](https://github.com/rstudio/pagedown). 
 
-El código fuente source está disponible aquí [github.com/nstrayer/cv](https://github.com/nstrayer/cv).
+El código fuente source está disponible aquí [github.com/patriloto/cv](https://github.com/nstrayer/cv).
 
-Last updated on `r Sys.Date()`.
+La última actualización fue hecha el `r Sys.Date()`.
 
 
 
@@ -105,7 +105,7 @@ Last updated on `r Sys.Date()`.
 Main
 ================================================================================
 
-Nick Strayer {#title}
+Patricia Loto {#title}
 --------------------------------------------------------------------------------
 
 
@@ -128,8 +128,7 @@ print_section(position_data, 'education')
 ```
 
 
-
-Research Experience {data-icon=laptop}
+Experience Académica {data-icon=laptop}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -138,7 +137,7 @@ print_section(position_data, 'research_positions')
 
 
 
-Industry Experience {data-icon=suitcase}
+Experiencia en la Industria {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ::: aside
@@ -153,7 +152,7 @@ print_section(position_data, 'industry_positions')
 <br>
 <br>
 
-Teaching Experience {data-icon=chalkboard-teacher}
+Experiencia en la enseñanza {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
 ::: aside
@@ -197,8 +196,7 @@ print_section(position_data, 'by_me_press')
 
 
 
-
-Selected Publications, Posters, and Talks {data-icon=book}
+Publicaciones seleccionadas , Pósters, y Charlas {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
