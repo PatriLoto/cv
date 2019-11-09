@@ -63,7 +63,7 @@ Contacto {#contacto}
 --------------------------------------------------------------------------------
 
 
-- <i class="fa fa-envelope"></i> nick.strayer@gmail.com
+- <i class="fa fa-envelope"></i> andrea2882@gmail.com
 - <i class="fa fa-twitter"></i> patriloto
 - <i class="fa fa-github"></i> github.com/patriloto 
 - <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
@@ -90,7 +90,7 @@ build_skill_bars(skills)
 
 
 
-Disclaimer {#disclaimer}
+Hecho con... {#disclaimer}
 --------------------------------------------------------------------------------
 
 Hecho con  el R paquete [**pagedown**](https://github.com/rstudio/pagedown). 
