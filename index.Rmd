@@ -64,8 +64,8 @@ Contacto {#contacto}
 
 
 - <i class="fa fa-envelope"></i> nick.strayer@gmail.com
-- <i class="fa fa-twitter"></i> NicholasStrayer
-- <i class="fa fa-github"></i> github.com/nstrayer
+- <i class="fa fa-twitter"></i> patriloto
+- <i class="fa fa-github"></i> github.com/patriloto 
 - <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
 - <i class="fa fa-phone"></i> (734) 645-0110
 
