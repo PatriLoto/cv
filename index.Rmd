@@ -1,6 +1,6 @@
 ---
 title: "Mi CV"
-author: Patricia Loto
+author: Patricia A. Loto
 date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
@@ -55,7 +55,9 @@ Descargar Mi Cv
 if(PDF_EXPORT){
   cat("View this CV online with links at _nickstrayer.me/cv_")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/nstrayer/cv/raw/master/strayer_cv.pdf)")
+  cat("[<i class='fas fa-download'></i>¿Descargar el PDF de este CV?(https://github.com/nstrayer/cv/raw/master/strayer_cv.pdf)"
+  
+ ## (https://github.com/patriloto/CVLoto/raw/master/Loto_cv.pdf)
 }
 ```
 
@@ -64,11 +66,9 @@ Contacto {#contacto}
 
 
 - <i class="fa fa-envelope"></i> andrea2882@gmail.com
-- <i class="fa fa-twitter"></i> patriloto
+- <i class="fa fa-twitter"></i> @patriloto
 - <i class="fa fa-github"></i> github.com/patriloto 
-- <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
-- <i class="fa fa-phone"></i> (734) 645-0110
-
+#- <i class="fa fa-link"></i> [nickstrayer.me](http://nickstrayer.me/)
 
 
 Skills {#skills}
@@ -77,10 +77,10 @@ Skills {#skills}
 ```{r}
 skills <- tribble(
   ~skill,               ~level,
-  "R",                  5,
+  "SQL",                4,
+  "R",                  3,
+  "C#",                 3,
   "Javascript (d3.js)", 4.5,
-  "SQL",                3,
-  "C#",                 3
 )
 
 build_skill_bars(skills)
@@ -95,7 +95,7 @@ Hecho con... {#disclaimer}
 
 Hecho con  el R paquete [**pagedown**](https://github.com/rstudio/pagedown). 
 
-El código fuente source está disponible aquí [github.com/patriloto/cv](https://github.com/nstrayer/cv).
+El código fuente source está disponible aquí [github.com/patriloto/cv](https://github.com/patriloto/cvLoto).
 
 La última actualización fue hecha el `r Sys.Date()`.
 
